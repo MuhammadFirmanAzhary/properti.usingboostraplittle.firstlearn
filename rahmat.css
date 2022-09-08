@@ -1,0 +1,63 @@
+body {
+    background-color: grey;
+}
+.navbar brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    /* margin: 80px 0px; */
+    background-color: black;
+    border-radius: 10px;
+    padding: 4rem 3rem;
+    margin-top: 9rem;
+    
+  }
+  
+  footer .textFooter {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer .textFooter ul {
+    list-style-position: inside;
+    list-style-type: none;
+  }
+  
+  footer .textFooter ul li {
+    color: #475569;
+    padding: 5px 0px;
+  }
+  
+  footer hr {
+    margin: 30px 0px;
+    color: #475569;
+  }
+  
+  footer .footerBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .footerBottom ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  footer .footerBottom > ul > li > a {
+    text-decoration: none;
+    margin: 0px 10px;
+  }
+  
+  footer .footerBottom .navLogin {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .footerBottom .navLogin i {
+    margin: 0 10px;
+  }
+  .ary {
+    margin-top: 70px;
+    margin-left: -90;
+    
+  }
